@@ -1,31 +1,41 @@
-body {
+body,html {
   display: block;
   max-width: 1170px;
   background-color: rgb(253, 202, 77);
   text-align: center;
+  font-family: Muli, Helvetica,Ariel,sans-serif;
 }
 
-header {
+button {
+  padding:2%;
+  border-radius: 300px;
+  border-color: #fdcc52;
+}
+
+.container-fluid {
   display: block;
   max-width: 1170px;
-  background-color: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149));
-  background-image: url("Imagines/bg-pattern.png");
+  background-color: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149),1);
+  background-image: url("file:bg-pattern.png");
   background-repeat: repeat;
-  background-attachment: local;
+  background-size: : contain;
   position: relative;
-  margin: 0 auto;
+  margin: 0 0 0 0;
 }
 
-.navdiv {
+.row {
   width: 50%;
   float: left;
 }
 
-.white-hover: {
-  hover {
-    text-color: white;
-  }
+.white:hover {
+color: white;
 }
+
+.buttonmenufont {
+  font-family: Lato,Helvetica,Arial, sans-serif;
+}
+
 
 .mobil-background {
   background-image: url("bg-cta.jpg");
