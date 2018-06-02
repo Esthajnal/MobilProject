@@ -2,6 +2,10 @@ body {
   background-color: rgb(253, 202, 77);
 }
 
+header {
+  background: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149));
+}
+
 .white-hover: hover {
   text-color: white;
 }
