@@ -25,6 +25,10 @@ button {
   float: left;
 }
 
+.white {
+  color: #ffd15a;
+}
+
 .white:hover {
   color: white;
 }
