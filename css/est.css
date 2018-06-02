@@ -1,15 +1,52 @@
 body {
+  display: block;
+  max-width: 1170px;
   background-color: rgb(253, 202, 77);
+  text-align: center;
 }
 
 header {
-  background: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149));
+  display: block;
+  max-width: 1170px;
+  background-color: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149));
+  background-image: url("Imagines/bg-pattern.png");
+  background-repeat: repeat;
+  background-attachment: local;
+  position: relative;
+  margin: 0 auto;
 }
 
-.white-hover: hover {
-  text-color: white;
+.navdiv {
+  width: 50%;
+  float: left;
+}
+
+.white-hover: {
+  hover {
+    text-color: white;
+  }
 }
 
 .mobil-background {
   background-image: url("bg-cta.jpg");
 }
+
+/*.container {
+    display: block;
+    max-width: 1170px;
+    position: relativ;
+    margin: 0 auto;
+}
+
+.colum-desktop-50 {
+    width: :calc(100%-30px);
+    float: :left;
+    padding: 15px;
+}
+
+@media(min-width:768px) {
+    /*így fog kinézni mobilon*/
+/* .colum-desktop-50 {
+      width: calc(50%-30px);
+  }
+}*/
