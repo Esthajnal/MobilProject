@@ -1,3 +1,11 @@
-.mobilman {
-    background-image: url("Image/bg-cta.jpg");
+body {
+  background-color: rgb(253, 202, 77);
+}
+
+.white-hover: hover {
+  text-color: white;
+}
+
+.mobil-background {
+  background-image: url("bg-cta.jpg");
 }
