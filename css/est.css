@@ -1,13 +1,14 @@
-body,html {
+body,
+html {
   display: block;
   max-width: 1170px;
   background-color: rgb(253, 202, 77);
   text-align: center;
-  font-family: Muli, Helvetica,Ariel,sans-serif;
+  font-family: Muli, Helvetica, Ariel, sans-serif;
 }
 
 button {
-  padding:2%;
+  padding: 2%;
   border-radius: 300px;
   border-color: #fdcc52;
 }
@@ -15,7 +16,7 @@ button {
 .container-fluid {
   display: block;
   max-width: 1170px;
-  background-color: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149),1);
+  background-color: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149), 1);
   background-image: url("file:bg-pattern.png");
   background-repeat: repeat;
   background-size: : contain;
@@ -29,13 +30,12 @@ button {
 }
 
 .white:hover {
-color: white;
+  color: white;
 }
 
 .buttonmenufont {
-  font-family: Lato,Helvetica,Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
 }
-
 
 .mobil-background {
   background-image: url("bg-cta.jpg");
@@ -56,6 +56,7 @@ color: white;
 
 @media(min-width:768px) {
     /*így fog kinézni mobilon*/
+
 /* .colum-desktop-50 {
       width: calc(50%-30px);
   }
