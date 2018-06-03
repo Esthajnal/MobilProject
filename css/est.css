@@ -3,10 +3,11 @@ body {
   padding: 0;
 }
 
-.start {
-  padding: 2%;
-  border-radius: 300px;
-  border-color: #fdcc52;
+container {
+  position: relative;
+  max-width: 1170px;
+  overflow: auto;
+  margin: 0 auto;
 }
 
 .menu {
@@ -16,52 +17,80 @@ body {
   position: fixed
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
+li a {
+  display: block;
   color: white;
+  float: right;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li:first-child {
-  color: #ffc25a
-}
-
-li:first-child:hover {
+li a:link {
+  text-decoration: none;
   color: white
 }
 
-li:nth-child(2) {
-  text-align: right;
+li a:visited {
+  text-decoration: none;
 }
 
-li:nth-child(3) {
-  text-align: right;
+li a:hover {
+  color: white
 }
 
-li:nth-child(4) {
-  text-align: right;
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li:first-child {
+  display: block;
+  color: #ffc25a;
+  float: left;
+  padding-left: 20%;
 }
 
 .pinkstuff {
   padding: 0;
   margin: 0;
   width: 100%;
+  height: 600px;
+  overflow: auto;
   display: inline-block;
-  font-family: Muli, Helvetica, Ariel, sans-serif;
+  font-family: Muli, Helvetica, Arial, sans-serif;
   background-image: url("/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
 }
 
-.phoneIMG {
-  display: inline-block;
+.newAge {
+  display: block;
+  width: calc(25% - 30px);
+  color: white;
+  position: relative;
+  float: left;
+  padding: 15px;
+  top: 180px;
+  left: 330px;
 }
 
-.phoneIMG img {
-  width: 20%;
+.newAge img {
+  width: 45%;
   height: auto;
+}
+
+.start {
+  display: block;
+  top: 400px
+}
+
+#btn1 {
+  border-radius: 300px;
+  padding: 5px 20px;
+  border-color: white;
+  color: white;
+  background-color: transparent;
 }
