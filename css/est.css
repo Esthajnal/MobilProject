@@ -68,6 +68,7 @@ li:first-child {
 
 .newAge {
   display: block;
+  position: relative;
   width: calc(25% - 30px);
   color: white;
   position: relative;
@@ -88,9 +89,20 @@ li:first-child {
 }
 
 #btn1 {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .0);
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid;
+  border-color: white;
   border-radius: 300px;
   padding: 5px 20px;
-  border-color: white;
-  color: white;
-  background-color: transparent;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+#btn1:hover {
+  background-color: #ffc25a
 }
