@@ -1,7 +1,6 @@
-.button {
-  padding: 2%;
-  border-radius: 300px;
-  border-color: #fdcc52;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -13,31 +12,140 @@ h6 {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
-ul {
+.menu {
+  width: 100%;
+  list-style-type: none;
+  top: 0;
+  position: fixed
+}
+
+li a {
+  display: block;
+  color: white;
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:link {
+  text-decoration: none;
+  color: white
+}
+
+li a:visited {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white
+}
+
+.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 50px;
+  width: 100%;
 }
 
-li {
+li:first-child:hover {
+  color: white
+}
+
+li:first-child {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  color: #ffc25a;
   float: left;
-  position: sticky
+  padding-left: 20%;
 }
 
 .pinkstuff {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 600px;
   display: block;
-  max-width: 1170px;
+  font-family: Muli, Helvetica, Arial, sans-serif;
+  background-image: url("/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
+}
+
+.pinkstuff .container {
+  height: 600px
+}
+
+.newAge {
+  display: block;
+  position: relative;
+  width: calc(25% - 30px);
+  color: white;
+  position: relative;
+  float: left;
+  padding: 15px;
+  top: 180px;
+  left: 330px;
+}
+
+.newAge img {
+  width: 45%;
+  height: auto;
+}
+
+.start {
+  display: block;
+  top: 400px
+}
+
+#btn1 {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .0);
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 300px;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+#btn1:hover {
+  background-color: #ffc25a
+}
+
+.GoogleApple {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+  background-color: #fcc949;
+}
+
+.discover {
+  display: block;
+  position: relative;
+  left: 420px;
   text-align: center;
   font-family: Muli, Helvetica, Ariel, sans-serif;
-  background-image: url("/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
+  width: 35%
+}
+
+.discover h1 {
+  font-size: 45px;
+}
+
+.logo {
+  width: 100%;
+  display: block;
+  text-align: center
+}
+
+a img:first-child {
+  width: 11.5%;
+  height: auto
 }
 
 .white {
