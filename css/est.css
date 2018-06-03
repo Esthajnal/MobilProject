@@ -4,7 +4,12 @@
   border-color: #fdcc52;
 }
 
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
 }
 
@@ -40,7 +45,7 @@ li {
   background-image: url("/Imagines/bg-cta.jpg");
   background-position: center;
   background-size: cover;
-  padding: 250px 0;
+  padding: 240px 0;
 }
 
 .phoneing .overlay {
@@ -49,7 +54,7 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .45);
+  background-color: rgba(0, 0, 0, .5);
 }
 
 section {
@@ -68,4 +73,31 @@ section {
   color: white;
   font-weight: 200;
   margin: 0px;
+  box-sizing: border-box;
+  line-height: 1.25;
+  text-align: left;
+  /*letter-spacing: 1px;
+  display: block;*/
+}
+
+.phoneing button {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .0);
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 300px;
+  padding: 15px 40px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  /*text-align: center;
+  display: inline-block;*/
+}
+
+.phoneing button:hover {
+  background-color: #fdcc52;
+  border-color: #fdcc52;
 }
