@@ -76,8 +76,6 @@ section {
   box-sizing: border-box;
   line-height: 1.25;
   text-align: left;
-  /*letter-spacing: 1px;
-  display: block;*/
 }
 
 .phoneing button {
@@ -93,11 +91,77 @@ section {
   padding: 15px 40px;
   letter-spacing: 2px;
   margin-top: 30px;
-  /*text-align: center;
-  display: inline-block;*/
 }
 
 .phoneing button:hover {
   background-color: #fdcc52;
   border-color: #fdcc52;
+}
+
+i.fas.fa-heart {
+  color: rgb(221, 76, 57);
+}
+
+.Social {
+  background-color: rgb(253, 202, 75);
+  padding: 80px;
+}
+
+.Social h1 {
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.socialIcons a {
+  font-size: 40px;
+  line-height: 80px;
+  height: 80px;
+  color: #fff;
+  border-radius: 100%;
+  width: 80px;
+  box-sizing: border-box;
+  margin: 5px;
+  display: inline;
+  float: left;
+  text-align: center;
+}
+
+.socialIcons .Twitter a {
+  background-color: rgba(29, 161, 243);
+  opacity: 0.9;
+}
+
+.socialIcons .Twitter a:hover {
+  opacity: 1;
+}
+
+.socialIcons .facebook a {
+  background-color: rgb(59, 89, 153);
+  opacity: 0.9;
+}
+
+.socialIcons .facebook a:hover {
+  opacity: 1;
+}
+
+.socialIcons .googleP a {
+  background-color: rgb(221, 76, 57);
+  opacity: 0.9;
+}
+
+.socialIcons .googleP a:hover {
+  opacity: 1;
+}
+
+.socialIcons {
+  display: table;
+  margin: 0 auto;
+}
+
+.socialIcons div {
+  display: inline;
 }
