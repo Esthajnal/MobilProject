@@ -47,6 +47,10 @@ li {
   width: 80%;
 }
 
+.font {
+  font-size: 40px;
+}
+
 .phone {
   display: block;
   float: left;
