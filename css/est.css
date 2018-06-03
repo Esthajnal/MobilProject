@@ -16,13 +16,6 @@ button {
 .container-fluid {
   display: block;
   max-width: 1170px;
-<<<<<<< HEAD
-  background-color: linear-gradient(rgb(219, 36, 49), rgb(125, 66, 149), 1);
-  background-image: url("file:bg-pattern.png");
-  background-repeat: repeat;
-  background-size: : contain;
-=======
->>>>>>> master
   position: relative;
   margin: 0 0 0 0;
 }
@@ -34,37 +27,4 @@ button {
 
 .white:hover {
   color: white;
-<<<<<<< HEAD
 }
-
-.buttonmenufont {
-  font-family: Lato, Helvetica, Arial, sans-serif;
-}
-
-.mobil-background {
-  background-image: url("bg-cta.jpg");
-}
-
-/*.container {
-    display: block;
-    max-width: 1170px;
-    position: relativ;
-    margin: 0 auto;
-}
-
-.colum-desktop-50 {
-    width: :calc(100%-30px);
-    float: :left;
-    padding: 15px;
-}
-
-@media(min-width:768px) {
-    /*így fog kinézni mobilon*/
-
-/* .colum-desktop-50 {
-      width: calc(50%-30px);
-  }
-}*/
-=======
-}
->>>>>>> master
