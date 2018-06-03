@@ -40,6 +40,52 @@ li {
   background-image: url("/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
 }
 
+.white {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: rgb(252, 252, 252);
+  display: block;
+  max-width: 1170px;
+  min-height: 600px;
+  text-align: center;
+  font-family: Muli, Helvetica, Ariel, sans-serif;
+}
+
+#whitepic {
+  height: 80%;
+  width: 80%;
+}
+
+.font {
+  font-size: 30px;
+  font-weight: bald;
+}
+
+.phone {
+  display: block;
+  float: left;
+  padding: 15px;
+  width: calc(33.33% - 30px);
+}
+
+.box1 {
+  display: block;
+  float: left;
+  padding: 15px;
+  width: calc(33.33% - 30px);
+}
+
+.box2 {
+  display: block;
+  float: left;
+  padding: 15px;
+  width: calc(33.33% - 30px);
+}
+
+.doboz {
+  margin: 30px 150px 30px 150px;
+}
+
 .phoneing {
   font-family: Muli, Helvetica, Arial, sans-serif;
   background-image: url("/Imagines/bg-cta.jpg");
