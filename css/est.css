@@ -153,8 +153,7 @@ a img:first-child {
   padding-bottom: 10px;
   background: rgb(252, 252, 252);
   display: block;
-  max-width: 1170px;
-  min-height: 600px;
+  min-height: 700px;
   text-align: center;
   font-family: Muli, Helvetica, Ariel, sans-serif;
 }
