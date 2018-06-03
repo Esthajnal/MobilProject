@@ -151,3 +151,27 @@ section {
   background-color: #fdcc52;
   border-color: #fdcc52;
 }
+
+.footer {
+  min-height: 80px; 
+  font-family: Muli,Helvetica,Arial,sans-serif;
+  font-size: 35%;
+  color:#515151;
+  text-align: center;
+  line-height: 200%;
+  background-color: #222222;
+}
+
+.footera:link {
+  color: #515151;
+  text-decoration: none;
+}
+
+.footera:hover {
+  color: #fdcc52;
+}
+
+footer > div {
+  align-items: center;
+  padding-top: 1%;
+}
