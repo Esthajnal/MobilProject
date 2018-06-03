@@ -1,30 +1,32 @@
-body,
-html {
-  display: block;
-  max-width: 1170px;
-  background-color: rgb(253, 202, 77);
-  text-align: center;
-  font-family: Muli, Helvetica, Ariel, sans-serif;
-}
-
-button {
+.button {
   padding: 2%;
   border-radius: 300px;
   border-color: #fdcc52;
 }
 
-.container-fluid {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  position: sticky
+}
+
+.pinkstuff {
   display: block;
   max-width: 1170px;
-  position: relative;
-  margin: 0 0 0 0;
-}
-
-.row {
-  width: 50%;
-  float: left;
-}
-
-.white:hover {
-  color: white;
+  text-align: center;
+  font-family: Muli, Helvetica, Ariel, sans-serif;
+  background-image: url("/MobilProject/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
 }
