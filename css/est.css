@@ -28,5 +28,5 @@ li {
   max-width: 1170px;
   text-align: center;
   font-family: Muli, Helvetica, Ariel, sans-serif;
-  background-image: url("/MobilProject/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
+  background-image: url("Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
 }
