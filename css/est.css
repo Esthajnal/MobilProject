@@ -106,3 +106,34 @@ li:first-child {
 #btn1:hover {
   background-color: #ffc25a
 }
+
+.GoogleApple {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+  background-color: #fcc949;
+}
+
+.discover {
+  display: block;
+  position: relative;
+  left: 450px;
+  text-align: center;
+  width: 35%
+}
+
+.discover h1 {
+  font-size: 45px;
+}
+
+.logo {
+  width: 100%;
+  display: block;
+  text-align: center
+}
+
+a img:first-child {
+  width: 10%;
+  height: auto
+}
