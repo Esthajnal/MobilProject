@@ -1,32 +1,67 @@
-.button {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.start {
   padding: 2%;
   border-radius: 300px;
   border-color: #fdcc52;
 }
 
-ul {
+.menu {
+  width: 100%;
   list-style-type: none;
+  top: 0;
+  position: fixed
+}
+
+ul {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
 }
 
 li {
-  display: block;
+  display: inline-block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  float: left;
-  position: sticky
+}
+
+li:first-child {
+  color: #ffc25a
+}
+
+li:first-child:hover {
+  color: white
+}
+
+li:nth-child(2) {
+  text-align: right;
+}
+
+li:nth-child(3) {
+  text-align: right;
+}
+
+li:nth-child(4) {
+  text-align: right;
 }
 
 .pinkstuff {
-  display: block;
-  max-width: 1170px;
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
   font-family: Muli, Helvetica, Ariel, sans-serif;
-  background-image: url("/MobilProject/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
+  background-image: url("/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
+}
+
+.phoneIMG {
+  display: inline-block;
+}
+
+.phoneIMG img {
+  width: 20%;
+  height: auto;
 }
