@@ -1,30 +1,107 @@
-body,
-html {
-  display: block;
-  max-width: 1170px;
-  background-color: rgb(253, 202, 77);
-  text-align: center;
-  font-family: Muli, Helvetica, Ariel, sans-serif;
-}
-
-button {
+.button {
   padding: 2%;
   border-radius: 300px;
   border-color: #fdcc52;
 }
 
-.container-fluid {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  position: sticky
+}
+
+.pinkstuff {
   display: block;
   max-width: 1170px;
+  text-align: center;
+  font-family: Muli, Helvetica, Ariel, sans-serif;
+  background-image: url("/Imagines/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397)
+}
+
+.phoneing {
+  font-family: Muli, Helvetica, Arial, sans-serif;
+  background-image: url("/Imagines/bg-cta.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 240px 0;
+}
+
+.phoneing .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+section {
   position: relative;
-  margin: 0 0 0 0;
 }
 
-.row {
-  width: 50%;
-  float: left;
+.container {
+  position: relative;
+  max-width: 1170px;
+  overflow: auto;
+  margin: 0 auto;
 }
 
-.white:hover {
+.phoneing h2 {
+  font-size: 90px;
   color: white;
+  font-weight: 200;
+  margin: 0px;
+  box-sizing: border-box;
+  line-height: 1.25;
+  text-align: left;
+  /*letter-spacing: 1px;
+  display: block;*/
 }
+
+.phoneing button {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .0);
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+<<<<<<< HEAD
+}
+=======
+  border: 1px solid;
+  border-color: white;
+  border-radius: 300px;
+  padding: 15px 40px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  /*text-align: center;
+  display: inline-block;*/
+}
+
+.phoneing button:hover {
+  background-color: #fdcc52;
+  border-color: #fdcc52;
+}
+>>>>>>> master
